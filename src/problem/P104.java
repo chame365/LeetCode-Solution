@@ -1,10 +1,13 @@
 package problem;
 
 import common.TreeNode;
+import util.CreateTree;
 
 public class P104 {
     public static void main(String[] args) {
-        Math.max()
+        Integer[] nums = {3,9,20,null,null,15,7};
+        TreeNode root = CreateTree.process(nums,0);
+        new P104().maxDepth(root);
     }
 
     public int maxDepth(TreeNode root) {
