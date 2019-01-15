@@ -25,8 +25,8 @@ public class P014 {
 
         for (int i = 0; i < targetStr.length(); i++) {
             int count = 0;
-            for (int j = 0; j < strs.length; j++) {
-                if (targetStr.charAt(i) == strs[j].charAt(i)) {
+            for (String str : strs) {
+                if (targetStr.charAt(i) == str.charAt(i)) {
                     count++;
                 }
             }
