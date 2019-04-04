@@ -1,8 +1,5 @@
 package problem;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /*
 编写一个程序，找出第 n 个丑数。
 丑数就是只包含质因数 2, 3, 5 的正整数。

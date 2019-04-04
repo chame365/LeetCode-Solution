@@ -1,8 +1,5 @@
 package problem;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class P070 {
     public static void main(String[] args) {
         new P070().climbStairs(44);
